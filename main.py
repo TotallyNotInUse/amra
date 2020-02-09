@@ -5,13 +5,10 @@ from tkinter.filedialog import askopenfilename
 from tkinter import messagebox as msgbox
 
 def resource_path(relative_path):
-    """ Get absolute path to resource, works for dev and for PyInstaller """
     try:
-        # PyInstaller creates a temp folder and stores path in _MEIPASS
         base_path = sys._MEIPASS
     except Exception:
         base_path = os.path.abspath(".")
-
     return os.path.join(base_path, relative_path)
 
 execution_path = os.getcwd()
@@ -63,8 +60,6 @@ def idenImage():
 	verdictOut.insert(0, ("This is a "+listd[0]))
 	verdictOut.config(state="readonly")
 
-
-
 root = Tk()
 root.geometry("420x300")
 root.title("A.M.R.A.")
@@ -86,8 +81,3 @@ Button(text="Identify image", command=idenImage).pack(side="bottom", fill="both"
 Label(text="Version: 1.0, Datamodel: recogModel_v3_92").pack()
 #root.withdraw()
 root.mainloop()
-
-
-'''
-
-'''
