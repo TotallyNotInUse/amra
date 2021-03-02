@@ -30,7 +30,7 @@ begin
      textcolor(18);
      writeln('Presione 00 para ir a ');
      gotoxy(55,16);
-     writeln('Configuraci¢n');
+     writeln('ConfiguraciÂ¢n');
 end;
 Procedure salirfin;
 begin
@@ -55,11 +55,11 @@ begin
      gotoxy(5,7);
      writeln('un error,usted no digito ningun nombre la computadora');
      gotoxy(5,8);
-     writeln('no encuentra la informaci¢n produciendo error,el');
+     writeln('no encuentra la informaciÂ¢n produciendo error,el');
      gotoxy(5,9);
      writeln('error tambien se puede producir porque sendos nombres');
      gotoxy(5,10);
-     writeln('son iguales produciendo falla de la informaci¢n de la');
+     writeln('son iguales produciendo falla de la informaciÂ¢n de la');
      gotoxy(5,11);
      writeln('computadora, ahora intelo de nuevo, gracias por utilizar');
      gotoxy(5,12);
@@ -82,7 +82,7 @@ begin
      gotoxy(6,8);
      writeln('con "X", usted observara en el cuadro del gato numeros');
      gotoxy(6,9);
-     writeln('sobre cada casilla, este numero indicara la posici¢n en que');
+     writeln('sobre cada casilla, este numero indicara la posiciÂ¢n en que');
      gotoxy(6,10);
      writeln('se ubicara la jugada, en la parte superior Izquierda apecera');
      gotoxy(6,11);
@@ -579,16 +579,16 @@ begin
      FOR w:=1 TO 80 DO
       BEGIN
            GOTOXY(w,x);
-           WRITE('ß');
+           WRITE('ÃŸ');
            gotoxy(w,x1);
-           WRITE('Ü');
+           WRITE('Ãœ');
       END;
      for x:=1 to 24 do
          begin
               gotoxy(w,x);
-              write('Û');
+              write('Ã›');
               gotoxy(w1,x);
-              write('Û');
+              write('Ã›');
          end;
 end;
 Procedure Marco;
@@ -603,16 +603,16 @@ begin
      For C:=17 to 46 do
       begin
            GOTOXY(C,F);
-           WRITE('Ü');
+           WRITE('Ãœ');
            gotoxy(c,f1);
-           WRITE('Ü');
+           WRITE('Ãœ');
       end;
      for f:=8 to 19 do
          begin
               gotoxy(c1,f);
-              write('Û');
+              write('Ã›');
               gotoxy(C2,f);
-              write('Û');
+              write('Ã›');
          end;
 end;
 Procedure Ubicar;
@@ -674,7 +674,7 @@ begin
          begin
               textcolor(9);
               gotoxy(q,20);
-              writeln('°');
+              writeln('Â°');
          end;
 end;
 Procedure jugadores1;
@@ -744,7 +744,7 @@ begin
          begin
               textcolor(14);
               gotoxy(q,20);
-              writeln('Û');
+              writeln('Ã›');
               delay(60);
 
          end;
@@ -762,7 +762,7 @@ begin
               gotoxy(18,22);
               writeln('Sea encontrado un error en el proceso por favor ');
               gotoxy(18,23);
-              writeln('introdusca de nuevo la informaci¢n');
+              writeln('introdusca de nuevo la informaciÂ¢n');
               ayuda;
               gotoxy(65,23);
               readln(ayu);
@@ -788,7 +788,7 @@ begin;
      marco1;
      textcolor(14);
      gotoxy(32,6);
-     writeln('Informaci¢n');
+     writeln('InformaciÂ¢n');
      textcolor(15);
      gotoxy(8,10);
      writeln('El jugador(a) "',nom1,'" jugara con O y el jugador(a) "',nom2,'"jugara con X');
@@ -2153,7 +2153,7 @@ begin
                  begin
                       textcolor(blue);
                       gotoxy(c,10);
-                      writeln('ß');
+                      writeln('ÃŸ');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom2,' GANO el juego');
@@ -2169,7 +2169,7 @@ begin
                  begin
                       textcolor(blue);
                       gotoxy(c,14);
-                      writeln('ß');
+                      writeln('ÃŸ');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom2,' GANO el juego');
@@ -2185,7 +2185,7 @@ begin
                  begin
                       textcolor(blue);
                       gotoxy(c,18);
-                      writeln('ß');
+                      writeln('ÃŸ');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom2,' GANO el juego');
@@ -2201,7 +2201,7 @@ begin
                  begin
                       textcolor(blue);
                       gotoxy(22,f);
-                      writeln('Û');
+                      writeln('Ã›');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom2,' GANO el juego');
@@ -2217,7 +2217,7 @@ begin
                  begin
                       textcolor(blue);
                       gotoxy(32,f);
-                      writeln('Û');
+                      writeln('Ã›');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom2,' GANO el juego');
@@ -2233,7 +2233,7 @@ begin
                  begin
                       textcolor(blue);
                       gotoxy(42,f);
-                      writeln('Û');
+                      writeln('Ã›');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom2,' GANO el juego');
@@ -2251,7 +2251,7 @@ begin
              repeat
                       textcolor(blue);
                       gotoxy(c,f);
-                      writeln('ÛÛ');
+                      writeln('Ã›Ã›');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom2,' GANO el juego');
@@ -2272,7 +2272,7 @@ begin
              repeat
                       textcolor(blue);
                       gotoxy(c,f);
-                      writeln('ÛÛ');
+                      writeln('Ã›Ã›');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom2,' GANO el juego');
@@ -2292,7 +2292,7 @@ begin
                  begin
                       textcolor(blue);
                       gotoxy(c,10);
-                      writeln('ß');
+                      writeln('ÃŸ');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom1,' GANO el juego');
@@ -2308,7 +2308,7 @@ begin
                  begin
                       textcolor(blue);
                       gotoxy(c,14);
-                      writeln('ß');
+                      writeln('ÃŸ');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom1,' GANO el juego');
@@ -2324,7 +2324,7 @@ begin
                  begin
                       textcolor(blue);
                       gotoxy(c,18);
-                      writeln('ß');
+                      writeln('ÃŸ');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom1,' GANO el juego');
@@ -2340,7 +2340,7 @@ begin
                  begin
                       textcolor(blue);
                       gotoxy(22,f);
-                      writeln('Û');
+                      writeln('Ã›');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom1,' GANO el juego');
@@ -2356,7 +2356,7 @@ begin
                  begin
                       textcolor(blue);
                       gotoxy(32,f);
-                      writeln('Û');
+                      writeln('Ã›');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom1,' GANO el juego');
@@ -2372,7 +2372,7 @@ begin
                  begin
                       textcolor(blue);
                       gotoxy(42,f);
-                      writeln('Û');
+                      writeln('Ã›');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom1,' GANO el juego');
@@ -2390,7 +2390,7 @@ begin
              repeat
                       textcolor(blue);
                       gotoxy(c1,f1);
-                      writeln('ÛÛ');
+                      writeln('Ã›Ã›');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom1,' GANO el juego');
@@ -2411,7 +2411,7 @@ begin
              repeat
                       textcolor(blue);
                       gotoxy(c1,f1);
-                      writeln('ÛÛ');
+                      writeln('Ã›Ã›');
                       GOTOXY(20,22);
                       textcolor(30);
                       WRITELN ('El jugador ',nom1,' GANO el juego');
